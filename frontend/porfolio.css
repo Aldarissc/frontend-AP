@@ -1,0 +1,51 @@
+body{ 
+    background-image: url(https://www.xtrafondos.com/wallpapers/3d-estructura-abstracta-3580.jpg);
+}
+
+/* { 
+    padding: 0px;
+    margin: 0px;
+}*/
+
+header {
+    margin: auto;
+    width:1200px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/rectangulos-iluminacion-neon-3d-3583.jpg);
+    height: 50px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.proyectos li a {
+    background-color: blue;
+    color: burlywood;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.proyectos li a:hover {
+background-color: blueviolet;
+}
+
+.proyectos > li {
+    float:left;
+}
+
+.proyectos li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.proyectos li:hover > ul { 
+    display: block;
+}
+
+form {
+    padding: 10 px;
+    color: white;
+}
