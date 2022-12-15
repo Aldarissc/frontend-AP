@@ -9,7 +9,8 @@ body{
 
 header {
     margin: auto;
-    width:1200px;
+    width:auto;
+    height: auto;
     font-family: 'Times New Roman', Times, serif;
     background-image: url(https://www.xtrafondos.com/wallpapers/vertical/rectangulos-iluminacion-neon-3d-3583.jpg);
     height: 50px;
@@ -48,4 +49,8 @@ background-color: blueviolet;
 form {
     padding: 10 px;
     color: white;
+}
+
+li {
+    color:aliceblue
 }
