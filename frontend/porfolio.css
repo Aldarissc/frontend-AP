@@ -1,18 +1,22 @@
 body{ 
-    background-image: url(https://www.xtrafondos.com/wallpapers/3d-estructura-abstracta-3580.jpg);
+    background-image: url(fondoDePagina.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
-/* { 
+*{ 
     padding: 0px;
     margin: 0px;
-}*/
+    box-sizing: border-box;
+}
 
 header {
     margin: auto;
     width:auto;
     height: auto;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/rectangulos-iluminacion-neon-3d-3583.jpg);
+    /*ackground-image: url(https://www.xtrafondos.com/wallpapers/vertical/rectangulos-iluminacion-neon-3d-3583.jpg);*/
     height: 50px;
 }
 
@@ -46,11 +50,41 @@ background-color: blueviolet;
     display: block;
 }
 
-form {
+nav form {
     padding: 10 px;
     color: white;
+    margin: 10px;
 }
 
 li {
     color:aliceblue
+}
+
+img { 
+    size: 30px;
+    border-radius: 1%;
+    border-image: auto;
+    width: 25%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    margin-left: 5em;
+}
+
+p {
+    color: gainsboro;
+    text-indent: 2rem;
+    size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 13px;
+}
+h1,h2 {
+    margin-left: 50px;
+}
+
+footer {
+    border-color: black;
+    align-items: center;
+    border: 5px;
 }
