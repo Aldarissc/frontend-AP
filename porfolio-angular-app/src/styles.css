@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+img {
+  size: 30px;
+  border-radius: 1%;
+  border-image: auto;
+  width: 25%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-left: 5em;
+}
+
+p {
+  color: gainsboro;
+  text-indent: 2rem;
+  size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 13px;
+  filter: brightness(200%);
+}
+h1,h2 {
+  margin-left: 50px;
+}
+
+
+body{
+  background-image: url(Crab_Nebula.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+h1 , h2 {
+  margin-left: 50px;
+  color: rgb(19, 87, 212);
+ 
+}
