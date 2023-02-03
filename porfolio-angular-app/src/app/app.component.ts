@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'porfolio-angular-app';
+
+  modalSwitch: boolean = false;
+
+  openModal(){
+    this.modalSwitch = true;
+  }
 }

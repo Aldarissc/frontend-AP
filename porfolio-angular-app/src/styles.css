@@ -12,7 +12,7 @@ img {
 }
 
 p {
-  color: gainsboro;
+  color:antiquewhite;
   text-indent: 2rem;
   size: 2em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,14 +25,15 @@ h1,h2 {
 
 
 body{
-  background-image: url(Crab_Nebula.jpg);
+  background-image: url(noche2jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  /*background-size: 100%;*/
   background-size: cover;
+  background-color: transparent;
 }
 
 h1 , h2 {
   margin-left: 50px;
   color: rgb(19, 87, 212);
- 
+
 }
